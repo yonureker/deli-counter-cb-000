@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each.with_index do |name, index|
       text << " #{index + 1}. #{name}"
     end
-    return text
+    puts text
   end
 end
 
